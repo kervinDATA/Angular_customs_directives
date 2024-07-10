@@ -1,3 +1,7 @@
 .red-title {
     color: red;
   }
+
+  .large-text {
+    font-size: 20px; /* Ajustez la taille selon vos besoins */
+  }

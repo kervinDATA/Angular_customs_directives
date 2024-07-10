@@ -4,5 +4,30 @@
 
 <button (click)="toggleAdmin()">View</button>
 <button *ngIf="isAdmin" (click)="edit()">Edit</button>
+
+<div *appShowMovies="showMovies">
+    <ul>
+        <li appBackground>The Shawshank Redemption</li>
+        <li>The Godfather</li>
+        <li>The Dark Knight</li>
+        <li>Schindler's List</li>
+        <li>Pulp Fiction</li>
+        <li>The Lord of the Rings: The Return of the King</li>
+        <li>Fight Club</li>
+        <li>Forrest Gump</li>
+        <li>Inception</li>
+        <li>The Matrix</li>
+        <li>Goodfellas</li>
+        <li>The Empire Strikes Back</li>
+        <li>One Flew Over the Cuckoo's Nest</li>
+        <li>Se7en</li>
+        <li>The Silence of the Lambs</li>
+        <li>City of God</li>
+        <li>Saving Private Ryan</li>
+        <li>Interstellar</li>
+        <li>The Green Mile</li>
+        <li>Gladiator</li>
+      </ul>
+</div>
       
 <router-outlet></router-outlet>
